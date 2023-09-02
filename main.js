@@ -1,5 +1,5 @@
-function validarFormulario(e) {
-    e.preventDefault();
+function validarFormulario(event) {
+    event.preventDefault();
 
     var numero1 = parseFloat(document.getElementById("numero1").value);
     var numero2 = parseFloat(document.getElementById("numero2").value);
